@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="change_language">Change Language</string>
+        <string name="category_baris">Peace</string>
+        <string name="category_bilgelik">Wisdom</string>
+        <string name="category_erdem">Virtue</string>
+        <string name="category_motivasyon">Motivation</string>
+        <string name="category_ask">Love</string>
+        <string name="category_yasam">Life</string>
+        <string name="category_ozgurluk">Freedom</string>
+        <string name="category_toplum">Society</string>
+        <string name="category_adalet">Justice</string>
+        <string name="category_doga">Nature</string>
+        <string name="category_inanc">Faith</string>
+        <string name="category_diger">Other</string>
+    <string name="favorites">Favorites</string>
+    <string name="theme">Theme</string>
+    <string name="no_quotes_found">No quotes found for this category.</string>
+    <string name="category_not_found">Category not found</string>
+
+</resources>
+
+

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Tema Başlığı -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tema Seçimi"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Tema Seçimi -->
+        <RadioGroup
+            android:id="@+id/radioGroupTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radioLight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Açık Tema" />
+            <RadioButton
+                android:id="@+id/radioDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Karanlık Tema" />
+        </RadioGroup>
+
+        <!-- Boşluk -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <!-- Dil Başlığı -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dil Seçimi"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Dil Seçimi -->
+        <RadioGroup
+            android:id="@+id/radioGroupLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radioTurkish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Türkçe" />
+            <RadioButton
+                android:id="@+id/radioEnglish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="English" />
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>

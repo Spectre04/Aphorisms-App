@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Kelime-i Hikmet</string>
+    <string name="favorites">Favoriler</string>
+    <string name="category_baris">Barış</string>
+    <string name="category_bilgelik">Bilgelik</string>
+    <string name="category_erdem">Erdem</string>
+    <string name="category_motivasyon">Motivasyon</string>
+    <string name="category_ask">Aşk / Sevgi</string>
+    <string name="category_yasam">Yaşam</string>
+    <string name="category_ozgurluk">Özgürlük</string>
+    <string name="category_toplum">Toplum / İnsanlık</string>
+    <string name="category_adalet">Adalet</string>
+    <string name="category_doga">Doğa / Çevre</string>
+    <string name="category_inanc">İnanç / Ruh</string>
+    <string name="category_diger">Diğer</string>
+    <string name="change_language">Dili Değiştir</string>
+    <string name="theme">Tema</string>
+    <string name="no_quotes_found">Bu kategoriye ait söz bulunamadı.</string>
+    <string name="category_not_found">Kategori bulunamadı</string>
+
+
+</resources>

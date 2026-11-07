@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/textEmptyFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Henüz favori söz eklenmedi."
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:textColor="@color/black" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
